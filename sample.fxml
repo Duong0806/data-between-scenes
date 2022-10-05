@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button onAction="#clickAdd" layoutX="268.0" layoutY="292.0" mnemonicParsing="false" text="Add" />
+      <ListView fx:id="personView" layoutX="21.0" layoutY="57.0" prefHeight="200.0" prefWidth="569.0" visible="false" />
+      <TextField fx:id="txtName" layoutX="207.0" layoutY="68.0" promptText="name" />
+      <TextField fx:id="txtId" layoutX="207.0" layoutY="132.0" promptText="id" />
+      <TextField fx:id="txtTime" layoutX="207.0" layoutY="200.0" promptText="time" />
+   </children>
+</AnchorPane>
