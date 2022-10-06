@@ -41,9 +41,10 @@ public class Controller {
         Parent root = loader.load();
         ((AnotherViewController)loader.getController()).setPersons(personView.getItems());
         Stage stage = new Stage();
-        stage.setTitle("Danh sach");
+        stage.setTitle("Danh sách môn học");
         stage.setScene(new Scene(root));
         stage.show();
         clearList();
+
     }
 }
